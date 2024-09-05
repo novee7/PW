@@ -1,0 +1,53 @@
+@font-face {
+    font-family: MadeOuterSans;
+    src: url(font/MADE\ Outer\ Sans\ Black\ PERSONAL\ USE.otf);
+  }
+header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    display: sticky;
+    background-color: #aeaeae;
+    font-family: MadeOuterSans;
+}
+
+footer{
+    display: flex;
+}
+ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #131313;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgba(128, 128, 128, 0.329);
+    border-radius: 10px;
+  }
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: #131313    !important;
+    text-decoration: none !important;
+}
+.title a:hover:not(.active) {
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+  }
